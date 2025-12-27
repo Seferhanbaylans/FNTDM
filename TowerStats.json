@@ -15172,10 +15172,119 @@
             }
         ]
     },
+	 "Frontman": {
+        "Type": "AOE + Passive",
+        "Image": "rbxassetid://120088988016599",
+        "Rarity": "Epic",
+        "PlacePrice": 56000,
+        "Offset": 0.3,
+        "Max": 1,
+        "Passive": {"Name": "Piggy Bank!", "Description": "Gains a stacking +25% damage to imps (Cap of 3). Scaling True Stun, 1 = 0.5s. 2 = 1s. 3 = 1.5s. If a boss is in range acts as max scaling."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 60000,
+                "Cooldown": 3,
+                "LargeDamage": 1.75
+            },
+            {
+                "Price": 59500,
+                "Range": 32,
+                "Damage": 80000,
+                "Cooldown": 3,
+                "LargeDamage": 1.75
+            },
+            {
+                "Price": 63000,
+                "Range": 35,
+                "Damage": 92000,
+                "Cooldown": 3,
+                "LargeDamage": 1.75
+            },
+            {
+                "Price": 70000,
+                "Range": 40,
+                "Damage": 105000,
+                "Cooldown": 3,
+                "LargeDamage": 1.75
+            }
+        ]
+    },
      "Painter Puppet": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://74447601469380",
         "Rarity": "Nightmare",
+        "PlacePrice": 20000,
+        "Max": 2,
+        "Passive": {"Name": "Paint Splatter", "Description": "When this unit attacks, has a 60% chance to apply Slow (58.5% for 1s), Wither (17.5% for 1s), and Anti-Regen (35% for 1.5s) "},
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 18000,
+                "Cooldown": 4,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
+            },
+            {
+                "Price": 30000,
+                "Range": 24,
+                "Damage": 22000,
+                "Cooldown": 3.33,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
+            },
+            {
+                "Price": 40000,
+                "Range": 28,
+                "Damage": 26000,
+                "Cooldown": 2.66,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
+            },
+            {
+                "Price": 50000,
+                "Range": 32,
+                "Damage": 30000,
+                "Cooldown": 2,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
+            }
+
+        ]
+    },
+	     "Guard": {
+        "Type": "Cone AOE",
+        "Image": "rbxassetid://91404072957750",
+        "Rarity": "Rare",
         "PlacePrice": 20000,
         "Max": 2,
         "Passive": {"Name": "Paint Splatter", "Description": "When this unit attacks, has a 60% chance to apply Slow (58.5% for 1s), Wither (17.5% for 1s), and Anti-Regen (35% for 1.5s) "},
@@ -15293,6 +15402,62 @@
             }
         ]
     },
+	    "True Rave Demon Bonnie": {
+        "Type": "Nuke",
+        "Image": "rbxassetid://88439586654869",
+        "Rarity": "Mythic",
+        "PlacePrice": 25000,
+        "Max": 2,
+        "Passive": {"Name": "Youre Done...", "Description": "Main attack applies 50% Anti-Regen for 2s. Every 5 seconds the next attack deals an additional 40% damage in Poison over 2s."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": 0.3,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 12500,
+                "Cooldown": 3,
+                "Poison": 5000,
+                "PoisonTime": 2,
+                "Bleed": 0.5,
+                "BleedTime": 2
+            },
+            {
+                "Price": 35000,
+                "Range": 28,
+                "Damage": 16500,
+                "Cooldown": 2.66,
+                "Poison": 6600,
+                "PoisonTime": 2,
+                "Bleed": 0.5,
+                "BleedTime": 2
+            },
+            {
+                "Price": 40000,
+                "Range": 32,
+                "Damage": 20000,
+                "Cooldown": 2.33,
+                "Poison": 8000,
+                "PoisonTime": 2,
+                "Bleed": 0.5,
+                "BleedTime": 2
+            },
+            {
+                "Price": 50000,
+                "Range": 35,
+                "Damage": 25000,
+                "Cooldown": 2,
+                "Poison": 10000,
+                "PoisonTime": 2,
+                "Bleed": 0.5,
+                "BleedTime": 2
+            }
+        ]
+    },
     "Glitchtrap": {
         "Type": "Pierce",
         "Image": "rbxassetid://101957224781287",
@@ -15346,6 +15511,101 @@
                 "ShinyWither": 1.10,
                 "WitherTime": 1,
                 "DamageBoost": 1.30
+            }
+        ]
+    },
+	    "Chiper": {
+        "Type": "Pierce",
+        "Image": "rbxassetid://72128016040243",
+        "Rarity": "Mythic",
+        "PlacePrice": 45000,
+        "Max": 1,
+        "Passive": {"Name": "Distortion", "Description": "Passively boosts all unit damage by 30%. Auto executes enemies at 20% (8.5% to Bosses/Imps) and attacks apply 10% Wither."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": 0.3,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 3750,
+                "Cooldown": 0.25,
+                "Wither": 1.10,
+                "ShinyWither": 1.10,
+                "WitherTime": 1,
+                "DamageBoost": 1.30
+            },
+            {
+                "Price": 50000,
+                "Range": 35,
+                "Damage": 5000,
+                "Cooldown": 0.25,
+                "Wither": 1.10,
+                "ShinyWither": 1.10,
+                "WitherTime": 1,
+                "DamageBoost": 1.30
+            },
+            {
+                "Price": 60000,
+                "Range": 40,
+                "Damage": 6250,
+                "Cooldown": 0.25,
+                "Wither": 1.10,
+                "ShinyWither": 1.10,
+                "WitherTime": 1,
+                "DamageBoost": 1.30
+            },
+            {
+                "Price": 70000,
+                "Range": 45,
+                "Damage": 7500,
+                "Cooldown": 0.25,
+                "Wither": 1.10,
+                "ShinyWither": 1.10,
+                "WitherTime": 1,
+                "DamageBoost": 1.30
+            }
+        ]
+    },
+	    "Red Bear": {
+        "Type": "Splash",
+        "Image": "rbxassetid://71530861500433",
+        "Rarity": "Nightmare",
+        "PlacePrice": 300,
+        "Offset": 0,
+        "Max": 4,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 2500,
+                "Cooldown": 4
+            },
+            {
+                "Price": 500,
+                "Range": 22,
+                "Damage": 3100,
+                "Cooldown": 4
+            },
+            {
+                "Price": 800,
+                "Range": 23,
+                "Damage": 3500,
+                "Cooldown": 4
+            },
+            {
+                "Price": 1200,
+                "Range": 25,
+                "Damage": 4200,
+                "Cooldown": 4
             }
         ]
     },
